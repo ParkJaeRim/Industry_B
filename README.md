@@ -1,4 +1,5 @@
-# Industry_B   **'Balancing Bot'**
+# Industry_B   
+**'Balancing Bot'**
 
 --------------------------------------------------------------------------
 # ABSTRACT
@@ -10,7 +11,9 @@ By using this algorithm, it is possible to easily balance and shorten the calcul
 --------------------------------------------------------------------------
 # INTRODUCTION
 
-**[Motivation]**
+
+
+**▶ Motivation**
 
 During the past decades, Engineering techniques have made great advancements in industry. Especially in control engineering, PID control is the most used. This technique is centered around a self-balancing posture control technique. It is possible to control the posture by oneself from external factors and is utilized in many fields. Segway is the product that is applied where we are closest and accessible. It allows users to maintain their own balance so that they do not fall within a certain range even if the center of gravity is changed randomly.
 
@@ -21,7 +24,7 @@ As such, PID technology is the most widely used technology, and it is thought to
 
 
 
-**[Previous Work]**
+**▶ Previous Work**
 
 Our work is an early stage, we have studied PID control, and now we are demonstrating PID. It still has unstable control and will do a little more tuning work.
 This is the final content of our interim report and we will soon be entering PID modeling.
@@ -30,8 +33,12 @@ This is the final content of our interim report and we will soon be entering PID
 
 --------------------------------------------------------------------------------------
 # PROPOSED METHODS
+
+
  
-**[Motivation]**
+**▶ Motivation**
+
+
 A proportional–integral–derivative controller (PID controller or three term controller) is a control loop feedback mechanism widely used in industrial control systems and a variety of other applications requiring continuously modulated control.
 In practical terms it automatically applies accurate and responsive correction to a control function. An everyday example is the cruise control on a road vehicle; where external influences such as gradients would cause speed changes, and the driver has the ability to alter the desired set speed. The PID algorithm converts the actual speed to the desired speed in the optimum way, without delay or overshoot, by controlling the power output of the vehicle's engine.
 The distinguishing feature of the PID controller is the ability to use the three control terms of proportional, integral and derivative influence on the controller output to apply accurate and optimal control. 
@@ -63,15 +70,15 @@ The final plan is to use ML to improve the performance of PID control and to cre
 
 ---------------------------------------------------------------------------------------------
 ## Arduino code
-### Setting gyro offset
+### ▶ Setting gyro offset
 
 
 follow this site
 http://42bots.com/tutorials/arduino-script-for-mpu-6050-auto-calibration/
 
 
---------------------------------------------------------------------------------------------------
-### Setting PID parameter
+
+### ▶ Setting PID parameter
 
 ```
 //PID
