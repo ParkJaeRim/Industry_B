@@ -1,5 +1,4 @@
-# Industry_B
-**'Balancing Bot'**
+# Industry_B   **'Balancing Bot'**
 
 --------------------------------------------------------------------------
 # ABSTRACT
@@ -89,3 +88,14 @@ PID pid(&input, &output, &setpoint, Kp, Ki, Kd, DIRECT);
 ```
 
 --------------------------------------------------------------------------------------------------
+## Project Video Link
+
+
+
+
+[![Alt text for your video](https://img.youtube.com/vi/iVVoLgYuxLA/0.jpg)](https://www.youtube.com/watch?v=iVVoLgYuxLA)
+
+
+
+
+
